@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #36C174, #1A5B37);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-top: -10px;
+    margin-left: -08px;
+    margin-right: -08px;
+    box-shadow: 1px 1px 1px black;
+}
+
+header > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: -8px 0px;
+}
+
+header > p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-weight: bold;
+}
+
+header > nav > a {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+header > nav {
+    text-align: left;
+    margin-left: 5px;
+}
+
+header > nav > a:hover {
+    background-color: #36C174;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+}
+
+main > section#resumo > article > h1 {
+    font-family: 'idroid';
+    font-size: 2em;
+    color: #1A5B37;
+}
+
+main > section#resumo > article > p {
+    font-size: 1.2em;
+}
+
+main > section#pversao > article > h2 {
+    font-size: 1.5em;
+    font-family: 'idroid';
+    color: #1A5B37;
+    background-image: linear-gradient(to right, #7cd3a1, #d4ffe7, white );
+}
+
+main > section#novomascote > article > h2 {
+    font-size: 1.5em;
+    font-family: 'idroid';
+    color: #1A5B37;
+    background-image: linear-gradient(to right, #7cd3a1, #d4ffe7, white );
+}
+
+div#image3 {
+    text-align: center;
+}
+
+section#video {
+    text-align: center;
+    background-color: #1A5B37;
+    padding: 0px 25px ;
+}
+
+div#extra {
+    background-color: #cbffe2;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    
+}
+
+div#extra > article > h3 {
+    background-color: #1A5B37;
+    color: white;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    border-radius: 5px 5px 0px 0px;
+    margin: -5px;
+    
+}
+
+ul#listadireita {
+    margin-top: -139px;
+    margin-left: 430px;
+    text-decoration: underline;
+}
+
+ul#listaesquerda {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: #1A5B37;
+    text-align: center;
+    margin: auto;
+}

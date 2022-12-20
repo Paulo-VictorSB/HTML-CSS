@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAGS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 0px 20px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(92, 92, 92);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 0px 20px;
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        nav >a:hover {
+            text-decoration: underline;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 0px 20px;
+        }
+
+        section#assuntos > abbr {
+            color: rgb(41, 38, 38);
+            text-decoration: none;
+        }
+
+        section#assuntos > abbr:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 0px 20px;
+
+        }
+
+        article > aside {
+            background-color: rgb(158, 158, 158);
+        }
+
+        article > h2 {
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+        }        
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+            border-radius: 0px 20px;
+        }
+
+        footer > p {
+            margin: 0px;
+            color: rgb(0, 136, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TEMPLATES SIMPLES</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <abbr title="Voltar">
+                <p>Brasil &gt Política</p>
+            </abbr>
+        </section>
+        <section id="noticias"> 
+            <article>
+                <h2>BRASIL ENFRENTA O MAIOR CHAOS DA HISTÓRIA!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi nemo temporibus sapiente mollitia, provident ex quos. Obcaecati harum voluptates perspiciatis, tempore nesciunt exercitationem reprehenderit consequatur. Voluptate sapiente deserunt culpa?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, consequuntur tenetur odio consequatur debitis atque quo iusto quisquam, quasi dolore quas aliquid tempore. Animi optio iure suscipit rem necessitatibus minus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eaque tempora dolore delectus animi saepe totam aspernatur rerum, ullam modi, itaque aperiam voluptatum vitae quas ducimus odit temporibus autem. Reiciendis?</p>
+                <aside>
+                    <p>Artigo escrito por Paulo victor dos santos barbosa</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Developer from Paulo Victor</p>
+    </footer>
+</body>
+</html>
