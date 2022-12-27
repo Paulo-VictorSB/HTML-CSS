@@ -1,13 +1,34 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+/*font-family: 'Passion One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+/*
+
+    ANOTAÇÕES
+text-transform: uppercase; <-- DEIXA TODAS AS LETRAS MAIUSCULAS
+font-variant: small-caps; <-- DEIXA TODAS AS LETRAS MAIUSCULAS, POREM A PRIMEIRA LETRA DE CADA PALAVRA FICA MAIOR QUE AS DEMAIS
+
+*/
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-width: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -16,10 +37,11 @@ header {
     text-align: center;
 }
 
-header > h1 {     /*text-transform: uppercase; <-- DEIXA TODAS AS LETRAS MAIUSCULAS
-                  font-variant: small-caps; <-- DEIXA TODAS AS LETRAS MAIUSCULAS, POREM A PRIMEIRA LETRA DE CADA PALAVRA FICA MAIOR QUE AS DEMAIS*/
+header > h1 {     
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vh;
 }
 
 header > p {
@@ -41,6 +63,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vh;
 }
 
 section.normal {
@@ -55,7 +79,7 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.267);
-    width: 400px;
+    display: inline-block;
 }
 
 footer {
