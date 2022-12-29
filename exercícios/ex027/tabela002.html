@@ -23,10 +23,19 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+            margin: auto;
         }
 
         .num {
             text-align: right;
+        }
+
+        #resultado {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -56,7 +65,7 @@
             </tr>
             <tr>
                 <td>Minas gerais</td>
-                <td class="num">421 411 923</td>
+                <td class="num">42 411 923</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
@@ -158,12 +167,11 @@
                 <td>Rio Grande do Norte</td>
                 <td class="num">652 713</td>
             </tr>
-
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de habitantes</th>
-                <td><strong>214 023 001</strong><td>
+                <td id="resultado"><strong>214 023 001</strong><td>
             </tr>
         </tfoot>
     </table>
